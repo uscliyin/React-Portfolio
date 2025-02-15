@@ -49,10 +49,14 @@
 }
 
 .hero-resume{
-    padding:25px 75px;
+    padding:25px 45px;
     border-radius: 50px;
-    border: 2px solid #FFF;
+    background:linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
     cursor:pointer;
+}
+.hero-resume a {
+    color: #fff;       /* 设置文字为白色 */
+    text-decoration: none; /* 去除下划线 */
 }
 
 .hero-connect:hover{
@@ -60,7 +64,7 @@
 }
 
 .hero-resume:hover{
-    border-color:#B415FF;
+    border:2px solid white;
 }
 
 @media(max-width:768px){

@@ -16,10 +16,11 @@
 .nav-connect a {
     padding: 20px 40px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav-connect:hover {
+    transition: 0.3s;
     transform: scale(1.05);
 }
 

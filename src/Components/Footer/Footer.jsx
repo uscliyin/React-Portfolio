@@ -2,24 +2,24 @@ import React from 'react'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
 import './Footer.css'
+import linkedin from '../../assets/linkedin.svg'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className="footer-top">
                 <div className="footer-top-left">
-                    <img src={footer_logo} alt="" />
-                    <p>I'm Fabio Yin, a software negineer in USA</p>
+                    <p>I'm Fabio Yin, Software Engineer in USA</p>
                 </div>
 
                 <div className="footer-top-right">
-                    <div className="footer-email-input">
-                        <img src={user_icon} alt="" />
-                        <input type="email" placeholder='Enter your email' />
-                    </div>
-                    <div className="footer-subscribe">
-                        Subscribe
-                    </div>
+                <a
+                    href="https://www.linkedin.com/in/uscliyin/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <img src={linkedin} alt="LinkedIn" />
+                </a>
                 </div>
             </div>
             <hr />
