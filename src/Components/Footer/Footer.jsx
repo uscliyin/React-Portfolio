@@ -3,6 +3,7 @@ import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
 import './Footer.css'
 import linkedin from '../../assets/linkedin.svg'
+import github from '../../assets/github.svg';
 
 const Footer = () => {
     return (
@@ -13,13 +14,21 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-top-right">
-                <a
-                    href="https://www.linkedin.com/in/uscliyin/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <img src={linkedin} alt="LinkedIn" />
-                </a>
+                    <a
+                        href="https://github.com/uscliyin"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <img src={github} alt="GitHub" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/uscliyin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <img src={linkedin} alt="LinkedIn" />
+                    </a>
+                    
                 </div>
             </div>
             <hr />

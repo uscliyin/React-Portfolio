@@ -6,6 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 import linkedin from '../../assets/linkedin.svg'
+import github from '../../assets/github.svg'
 
 const Navbar = () => {
 
@@ -30,6 +31,13 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu === "contact" ? <img src={underline} alt='' /> : <></>}</li>
       </ul>
       <div className="nav-connect">
+        <a
+          href="https://github.com/uscliyin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="GitHub" />
+        </a>
         <a
           href="https://www.linkedin.com/in/uscliyin/"
           target="_blank"

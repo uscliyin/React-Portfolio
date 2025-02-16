@@ -13,13 +13,19 @@
     font-size: 20px;
 }
 
+.nav-connect {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 根据需要调整间距 */
+    padding: 10px 20px;
+}
 .nav-connect a {
-    padding: 20px 40px;
+    padding: 5px 10px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.nav-connect:hover {
+.nav-connect a:hover {
     transition: 0.3s;
     transform: scale(1.05);
 }
