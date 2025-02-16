@@ -1,3 +1,3 @@
 ## Hi I'm Fabio Yin.
 
-Portfolio Website Link: [Link Text](https://www.fabioyin.com/)
+[Portfolio Website](https://www.fabioyin.com/)
