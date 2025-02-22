@@ -1,168 +1,201 @@
-.about{
+/* 让整个 About 页面居中、上下留白 */
+.about {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    gap:80px;
-    margin: 90px 170px;
-}
-
-.about-title{
+    align-items: center;
+    gap: 30px; /* 区块之间的间距 */
+    margin: 90px 0px;
+  }
+  
+  /* 标题部分 */
+  .about-title {
     position: relative;
-}
-
-.about-title h1{
-    padding:0px 30px;
-    font-size:80px;
-    font-weight:600;
-}
-
-.about-title img{
-    position:absolute;
-    bottom:0;
-    right:0;
-    z-index:-1;
-}
-
-.about-sections{
-    display: flex;
-    gap:80px;
-}
-
-.about-right{
-    display: flex;
-    flex-direction: column;
-    gap:80px;
-}
-
-.about-para{
-    display:flex;
-    flex-direction: column;
-    gap:20px;
-    font-size:24px;
-    font-weight: 500;
-}
-
-.about-skills{
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-}
-
-.about-skill{
-    display: flex;
-    gap:50px;
-    align-items: center;
-    transition: 0.3s;
-}
-.about-skill p{
-    min-width:150px;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.about hr{
-    outline:none;
-    border:none;
-    width:50%;
-    height:8px;
-    border-radius: 50px;
-    background:linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
-}
-
-.about-achievements{
-    display: flex;
-    width:100%;
-    justify-content: space-around;
-    margin-bottom: 80px;
-    
-
-}
-
-.about-achievement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:10px;
-    transition: 0.5;
-}
-
-.about-achievement h1{
-    font-size:60px;
-    font-weight:700;
+    text-align: center;
+  }
+  
+  .about-title h1 {
+    padding: 0 30px;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  /* My Skills 样式 */
+  .about-myskills {
+    width: 70%;
+    max-width: 100%; /* 限制阅读宽度，可根据需要调整 */
+  }
+  
+  .about-myskills h2 {
+    font-size: 40px;
+    margin-bottom: 1rem;
     background:linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
     background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.about-achievement p{
-    font-size:22px;
-    font-weight: 500;
-}
+  }
+  
+  /* Skills 列表 */
+  .about-myskills ul {
+    list-style: disc inside; /* 在内部显示项目符号 */
+    margin-left: 20px;       /* 稍微留一些缩进 */
+    font-size: 20px;
+    line-height: 1.6;        /* 行距更舒适 */
+  }
+  
+  /* 工作经历 */
+  .about-myexperience {
+    width: 70%;
+    max-width: 100%; /* 限制阅读宽度，可根据需要调整 */
+  }
+  
+  .about-myexperience h2 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    background:linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* 单个工作项 */
+  .experience-item {
+    margin-bottom: 2rem; /* 工作条目之间的间距 */
+  }
+  
+  .experience-item h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem; /* 与下面的时间留出一些空隙 */
+  }
+  
+  .experience-item p {
+    font-size: 20px;
+    margin: 0 0 0.5rem;
+  }
+  
+  .experience-item ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    margin-bottom: 0rem;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  /* 教育背景 */
+  .about-myeducation {
+    margin-top:-30px;
+    width: 70%;
+    max-width: 100%; /* 限制阅读宽度，可根据需要调整 */
+  }
+  
+  .about-myeducation h2 {
+    background:linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  .education-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .education-item h3 {
+    font-size: 20px;
+    margin: 0 0 0.3rem;
+  }
 
-.about-skill:hover{
-    transform: scale(1.05);
-    transition:0.3s
-}
+  .education-item p {
+    font-size: 20px;
+    margin: 0 0 0.3rem;
+  }
+  
+  /* 下载简历的按钮 */
+  .about-myresume {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .about-myresume a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about-myresume:hover {
+    border: 2px solid white;
+  }
+  
+  @media (max-width: 768px) {
+    /* 最外层 about 容器 */
+    .about {
+      gap: 30px;             /* 缩小内容间距 */
+      margin: 30px 20px;     /* 调整外边距，适配小屏 */
+      align-items: center;  /* 左对齐，如需居中可改为 center */
+    }
+  
+    /* 标题区域 */
+    .about-title h1 {
+      font-size: 40px;       /* 大约32px，根据需要可调 */
+      margin: 0;             /* 去除默认 margin 或 padding */
+    }
+    .about em{
+        font-size: 0.95rem;
+    }
+  
+    .about-title img {
+      width: 100px;          /* 缩小图片在小屏的显示 */
+      /* 如果需要定位可在此设置 position 或 left/right */
+    }
+  
+    /* 各区块标题，如 My Skills, Work Experience, Education */
+    .about-myskills h2,
+    .about-myexperience h2,
+    .about-myeducation h2 {
+      font-size: 1.5rem;     /* 大约24px */
+      margin-bottom: 10px;   /* 区块标题与后续内容间留一点空 */
+    }
+  
+    /* 工作经历与教育经历的标题，如 MES Engineer, Full Stack Developer */
+    .experience-item h3,
+    .education-item h3 {
+      font-size: 1.1rem;     /* 小屏字体更紧凑，约17.6px */
+      margin-bottom: 6px;
+    }
+  
+    /* 列表样式：技能列表、工作经历列表等 */
+    .about-myskills ul,
+    .experience-item ul {
+      margin-left: 20px;
+      font-size: 0.95rem;     /* 略小的字体保证可读性 */
+      line-height: 1.4;       /* 增加行高以提高可读性 */
+    }
+  
+    /* 如果需要让列表项之间多点空隙，可这样处理 */
+    .about-myskills li,
+    .experience-item li {
+      margin-bottom: 8px;
+    }
+    .education-item p{
+        font-size: 0.95rem;
+    }
+  
+    .about-myresume {
+        padding:10px 40px 15px 40px;
+      }
 
-.about-achievement:hover{
-    transform: scale(1.12);
-    transition:0.3s
-}
-
-@media(max-width:768px){
-    .about{
-        gap:80px;
-        margin:50px 70px;
-        align-items: start;
+    /* 下载简历按钮在小屏适配 */
+    .about-myresume a {
+      font-size: 1rem;
     }
-
-    .about-title h1{
-        font-size: 50px;
-        padding:0;
-    }
-
-    .about-title img{
-        width:130px;
-        right:-20px;
-    }
-
-    .about-sections{
-        flex-direction: column;
-    }
-    .about-left{
-        display: none;
-    }
-    .about-para{
-        font-size: 18px;
-        line-height: 32px;
-    }
-
-    .about-skill{
-        gap:20px;
-        align-items: center;
-    }
-
-    .about-skill p{
-        font-size: 20px;
-    }
-    .about-skill hr{
-        height: 6px;
-    }
-
-    .about-achievements{
-        justify-content: space-between;
-    }
-
-    .about-achievement{
-        gap: 10px;
-    }
-
-    .about-achievement h1{
-        font-size: 34px;
-    }
-    .about-achievement p{
-        text-align: center;
-        font-size: 16px;
-    }
-}
+  }
