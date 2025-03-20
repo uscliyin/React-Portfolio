@@ -87,7 +87,7 @@ const About = () => {
       <div className="about-myeducation">
         <h2>Education</h2>
         <div className="education-item">
-          <h3>Master of Science, Analytics</h3>
+          <h3>Master of Science, Analytics (Data Analytics)</h3>
           <p>University of Southern California, CA, USA</p>
           <p><em>Jan 2021 - Dec 2022</em></p>
         </div>
