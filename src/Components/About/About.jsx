@@ -71,6 +71,17 @@ const About = () => {
             </li>
           </ul>
         </div>
+
+        <div className="experience-item">
+          <h3>Software Developer | Chongqing Chaomei Advanced Lubricating Oil, Chongqing, China</h3>
+          <p><em>Jan 2020 - Dec 2020</em></p>
+          <ul>
+            <li>
+            Developed a full-stack CRM system using C#, ASP.NET MVC Core, enhancing functionality with JavaScript.
+            Implemented sophisticated user interface designs with Razor Page, HTML and CSS, using Partial Views for reusable UI components. Improved data management efficiency with SQL Server. Ensured application reliability through unit testing using xUnit and FakeItEasy.
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="about-myeducation">
