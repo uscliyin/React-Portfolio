@@ -99,7 +99,7 @@ const About = () => {
       </div>
 
       <div className="about-myresume">
-        <a href="/fabioyin_resume.pdf" download>
+        <a href="/fabioyin_resume_sde.pdf" download>
           Download Resume
         </a>
       </div>
