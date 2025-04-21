@@ -153,6 +153,7 @@
         font-size: 0.95rem;
     }
   
+    
     .about-title img {
       width: 100px;          /* 缩小图片在小屏的显示 */
       /* 如果需要定位可在此设置 position 或 left/right */
