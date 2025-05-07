@@ -6,8 +6,8 @@ const Hero = () => {
         <div id='home' className='hero'>
             <img src={profile} alt="" />
             <h1><span>I'm Fabio Yin</span>, Software Engineer</h1>
-            <p>Software Engineer (3+ years) enhancing systems and building web applications using C#, ASP.NET (Framework/Core, MVC, API), React, Unit Testing, and SQL Server.</p>
-            <p>Data Engineer (1+ year) leveraging Python for Data Cleaning, Analysis, and Web Scraping.</p>
+            <p>Software Engineer enhancing systems and building web applications using C#, ASP.NET (Framework/Core, MVC, API), React, Unit Testing, and SQL Server.</p>
+            <p>Data Engineer leveraging Python for Data Cleaning, Analysis, and Web Scraping.</p>
         </div>
     )
 }

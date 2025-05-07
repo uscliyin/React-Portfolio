@@ -74,7 +74,7 @@ const About = () => {
 
         <div className="experience-item">
           <h3>Software Developer | Chongqing Chaomei Advanced Lubricating Oil, Chongqing, China</h3>
-          <p><em>Jan 2020 - Jan 2021</em></p>
+          <p><em>Mar 2019 - Jan 2021</em></p>
           <ul>
             <li>
             Developed a full-stack CRM system using C#, ASP.NET MVC Core, enhancing functionality with JavaScript.
